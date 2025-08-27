@@ -161,10 +161,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # --- TEXTO DE BOAS-VINDAS ATUALIZADO ---
     texto_boas_vindas = (
-        f"🔥 Bem-vindo, {user.first_name}!\n\n"
-        "Você acaba de abrir a porta para o meu espaço mais fechado.\n\n"
-        "Aqui não tem enrolação: só conteúdo VIP, sem filtros.\n\n"
-        "Pronto para entrar no próximo nível? 🚀"
+        f"Oi, {user.first_name}! 👋\n\n"
+        "Você tá entrando num espaço feito só pra quem curte exclusividade.\n\n"
+        "Aqui eu compartilho conteúdo que não vai pra lugar nenhum além desse canal.\n\n"
+        "Clica aí e vem fazer parte disso."
     )
     
     keyboard = [
