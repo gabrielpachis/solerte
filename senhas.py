@@ -3,7 +3,7 @@ import os
 # 🤖 CONFIGURAÇÕES DO TELEGRAM
 # ===================================================================
 # Token do seu bot do Telegram, obtido com o @BotFather.
-TOKEN_BOT = "8291436826:AAHc89bS326akbyO3rXB3k5AoP_n7xwwekg" # Mantenha o seu token
+TOKEN_BOT = "8478570405:AAGZDX0UQfpLR5j0UuQkC0MZ_P3JrF1Xrmk" # Mantenha o seu token
 
 # Lista de IDs de usuários do Telegram que são donos/administradores do bot.
 # Eles receberão notificações de novas vendas. Pode ser um ou mais IDs.
@@ -48,3 +48,4 @@ EFI_PIX_KEY = "programadorpaleoselli@gmail.com" # Mantenha sua chave PIX
 # Caminho para o arquivo de certificado .pem da Efí para o ambiente de PRODUÇÃO.
 DIRETORIO_ATUAL = os.path.dirname(__file__)
 EFI_CERTIFICATE_PATH = os.path.join(DIRETORIO_ATUAL, 'certificados', 'certificado_producao.pem')
+
