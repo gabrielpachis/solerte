@@ -8,7 +8,7 @@ TOKEN_BOT = "8478570405:AAGZDX0UQfpLR5j0UuQkC0MZ_P3JrF1Xrmk" # Mantenha o seu to
 # Lista de IDs de usuários do Telegram que são donos/administradores do bot.
 # Eles receberão notificações de novas vendas. Pode ser um ou mais IDs.
 # Exemplo: ID_DONOS = [123456789, 987654321]
-ID_DONOS = [7885440781, 7220554077] # Mantenha o seu ID
+ID_DONOS = [7885440781,] # Mantenha o seu ID
 
 # ID do canal para onde os logs de execução serão enviados.
 ID_LOGS = 6912464825 # Mantenha o seu ID de logs
@@ -48,4 +48,5 @@ EFI_PIX_KEY = "programadorpaleoselli@gmail.com" # Mantenha sua chave PIX
 # Caminho para o arquivo de certificado .pem da Efí para o ambiente de PRODUÇÃO.
 DIRETORIO_ATUAL = os.path.dirname(__file__)
 EFI_CERTIFICATE_PATH = os.path.join(DIRETORIO_ATUAL, 'certificados', 'certificado_producao.pem')
+
 
