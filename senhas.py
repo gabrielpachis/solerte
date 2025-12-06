@@ -23,7 +23,7 @@ ID_CANAL_TERMOS = -1003096889643 # Mantenha o ID do seu canal de termos
 # 💳 CONFIGURAÇÕES DOS PLANOS
 # ===================================================================
 # Preços dos planos de acesso. Use formato de string com ponto.
-PRECO_MENSAL = "44.50"
+PRECO_MENSAL = "39.90"
 PRECO_TRIMESTRAL = "74.90" # Defina o preço para o acesso trimestral
 
 LINK_SUPORTE = "https://t.me/paleoselli"
@@ -48,6 +48,7 @@ EFI_PIX_KEY = "programadorpaleoselli@gmail.com" # Mantenha sua chave PIX
 # Caminho para o arquivo de certificado .pem da Efí para o ambiente de PRODUÇÃO.
 DIRETORIO_ATUAL = os.path.dirname(__file__)
 EFI_CERTIFICATE_PATH = os.path.join(DIRETORIO_ATUAL, 'certificados', 'certificado_producao.pem')
+
 
 
 
